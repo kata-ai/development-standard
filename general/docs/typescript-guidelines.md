@@ -183,3 +183,15 @@ class Person {
   // ...
 }
 ```
+
+### Legacy TypeScript syntax
+
+These are legacy TypeScript syntaxes that must be avoided at all times. Don't use these. **Ever.**
+
+#### Avoid namespaces
+
+This is the legacy method for defining modules in TypeScript, and Babel doesn't support it. It can be easily replaced with ES Modules.
+
+#### Avoid `export = ` and `import = require('')` syntax
+
+These can also be easily replaced with ES Modules.
