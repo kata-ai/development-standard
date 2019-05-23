@@ -96,6 +96,12 @@ Don't forget your integration tests!
 
 This styleguide should be seen as an extension of the styleguide defined in the [General Guidelines](./general-guidelines.md). All the rules outlined there still apply.
 
+### Indentation & Line length
+
+#### Use a 2-space indentation
+
+Contrary to the General Guidelines, we use 2-space indentation for the frontend.
+
 ### Naming
 
 #### Keep filenames clear and concise

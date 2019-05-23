@@ -12,9 +12,9 @@ Make sure to enable strict mode in your tsconfig! Anything less will cause a hug
 
 ```json
 {
-  "compilerOptions": {
-    "strict": true
-  }
+    "compilerOptions": {
+        "strict": true
+    }
 }
 ```
 
@@ -32,14 +32,14 @@ $ npm install --save-dev tslint tslint-config-kata prettier tslint-plugin-pretti
 
 ```json
 {
-  "rulesDirectory": ["tslint-plugin-prettier"],
-  "extends": ["tslint-config-kata", "tslint-config-prettier"],
-  "linterOptions": {
-    "exclude": ["node_modules/**"]
-  },
-  "rules": {
-    "prettier": true
-  }
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "extends": ["tslint-config-kata", "tslint-config-prettier"],
+    "linterOptions": {
+        "exclude": ["node_modules/**"]
+    },
+    "rules": {
+        "prettier": true
+    }
 }
 ```
 
@@ -47,11 +47,11 @@ $ npm install --save-dev tslint tslint-config-kata prettier tslint-plugin-pretti
 
 ```json
 {
-  "printWidth": 120,
-  "singleQuote": false,
-  "trailingComma": "es5",
-  "useTabs": false,
-  "tabWidth": 4
+    "printWidth": 120,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "tabWidth": 4
 }
 ```
 
@@ -100,18 +100,18 @@ It is recommended to include a trailing comma in multiline array/object statemen
 ```js
 // Bad example
 const hero = {
-  firstName: 'Ada',
-  lastName: 'Lovelace',
-  birthYear: 1815,
-  superPower: 'computers'
+    firstName: 'Ada',
+    lastName: 'Lovelace',
+    birthYear: 1815,
+    superPower: 'computers'
 };
 
 // Good example
 const hero = {
-  firstName: 'Ada',
-  lastName: 'Lovelace',
-  birthYear: 1815,
-  superPower: 'computers',
+    firstName: 'Ada',
+    lastName: 'Lovelace',
+    birthYear: 1815,
+    superPower: 'computers',
 };
 ```
 
@@ -158,13 +158,13 @@ If declaring a class method, you should always specify whether the method is `pu
 
 ```ts
 class Person {
-  constructor() {}
+    constructor() {}
 
-  // Bad example
-  sayHello(greeting: string): void {}
+    // Bad example
+    sayHello(greeting: string): void {}
 
-  // Good example
-  public sayHello(greeting: string): void {}
+    // Good example
+    public sayHello(greeting: string): void {}
 }
 ```
 
@@ -174,13 +174,13 @@ Even when it's `undefined`, class properties should always be initialized
 
 ```ts
 class Person {
-  // Bad example
-  element: HTMLElement;
+    // Bad example
+    element: HTMLElement;
 
-  // Good example
-  element: HTMLElement | null = null;
+    // Good example
+    element: HTMLElement | null = null;
 
-  // ...
+    // ...
 }
 ```
 
