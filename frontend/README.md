@@ -98,10 +98,6 @@ This styleguide should be seen as an extension of the styleguide defined in the 
 
 ### Indentation & Line length
 
-#### Use a 2-space indentation
-
-Contrary to the General Guidelines, we use 2-space indentation for the frontend.
-
 ### Naming
 
 #### Keep filenames clear and concise
