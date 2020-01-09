@@ -12,6 +12,5 @@ This is a living document outlining the general development guidelines within th
 
 ## Links
 
-- [General Guidelines](./general/README.md)
 - [Frontend Guidelines](./frontend/README.md)
 - [Backend Guidelines](./backend/README.md)
