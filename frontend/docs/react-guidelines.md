@@ -1,6 +1,6 @@
 # Kata Platform Frontend Development Standard - React Guidelines
 
-*Work in progress - Updated 04 January 2019*
+*Work in progress*
 
 ## Overview
 
