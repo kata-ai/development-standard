@@ -79,6 +79,6 @@ Writing tests ensures that:
 - We could add new functionality without breaking old ones
 - We could refactor parts of the codebase without fearing that stuff would break.
 
-We use [Jest](https://jestjs.io/) as our test runner. To run test coverage within Jest, run `jest --coverage`. New projects must aim for at least 70% test coverage.
+We use [Jest](https://jestjs.io/) as our test runner. To run test coverage within Jest, run `jest --coverage`. New projects must aim for at least 70% test coverage. Don't forget to use code coverage/code quality tracking tools like [codecov](https://codecov.io/) or [CodeClimate](https://codeclimate.com/).
 
-Don't forget your integration tests!
+We use [react-testing-library](https://testing-library.com/docs/react-testing-library/intro) as our React testing framework. This library helps us write better tests for our React components by encouraging good test practices.
