@@ -14,18 +14,22 @@ Generally, for our single-page apps we use [React](https://reactjs.org) with too
 
 ### TypeScript Styleguide
 
-All frontend projects within Kata.ai must use TypeScript. This is a living document outlining guidelines for developing frontend projects using TypeScript within Kata.ai
+At Kata.ai, we use [TypeScript](https://www.typescriptlang.org/) across our entire JavaScript stack. TypeScript combines the familiarity of JavaScript with the power of static typing.
+
+In general, using static typing in your JavaScript code [can help prevent about 15%](https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/) of the bugs that end up in committed code. Not only static typing, TypeScript also provides various productivity enhancements like advanced statement completion, as well as smart code refactoring.
+
+This document outlines the general styleguide for TypeScript projects within Kata.ai
 
 [Read the TypeScript Styleguide](./docs/typescript-guidelines.md)
 
 ### React Styleguide
 
-This is a living document outlining the React-specific guidelines in the Kata Platform Frontend Development Standard.
+[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. This document outlines React-specific styleguide.
 
 [Read the React Styleguide](./docs/react-guidelines.md)
 
 ### Tooling
 
-This is a living document outlining the tools we use for development and testing, as well as guides on using them
+We're committed to the quality of our development stack and tooling. This document contains guides on the tools we use for daily development as a frontend engineer in Kata.ai. This also contains our unified ESLint config that you can use and extend from.
 
 [Read the Tooling docs](./docs/tooling.md)
