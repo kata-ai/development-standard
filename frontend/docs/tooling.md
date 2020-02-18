@@ -54,32 +54,53 @@ If you do need to disable some rules that the `--strict` flag emits, override it
 
 ## Linting and Formatting
 
-### Prettier
+### ESLint
 
-The frontend team uses its own specific TSLint rule. Instead of extending `tslint-config-kata`, extend `tslint-config-kata/react`.
+Kata.ai provides a [custom ESLint config](https://github.com/kata-ai/eslint-config-kata) to enforce the styleguides outlined in this document. To use it, install `eslint-config-kata`.
+
+```sh
+$ yarn add --dev eslint-config-kata
+```
+
+Then, extend `eslint-config-kata/react` in your `.eslintrc` file.
 
 ```json
 {
-  "rulesDirectory": ["tslint-plugin-prettier"],
-  "extends": ["tslint-config-kata/react", "tslint-config-prettier"],
-  "linterOptions": {
-    "exclude": ["node_modules/**"]
-  },
-  "rules": {
-    "prettier": true
-  }
+  "extends": ["eslint-config-kata/react"]
 }
 ```
 
-The frontend team uses its own `.prettierrc`:
+### Prettier
+
+[Prettier](https://prettier.io/) is a tool to automatically format your code during save. It supports various editors, from VSCode, Atom, Sublime, and even Emacs.
+
+To use this ESLint config in conjunction with Prettier, copy the following `.prettierrc` template:
 
 ```json
 {
-  "useTabs": false,
-  "printWidth": 120,
+  "semi": false,
   "tabWidth": 2,
+  "printWidth": 120,
   "singleQuote": true,
-  "semi": true
+  "trailingComma": "es5"
+}
+```
+
+Then install the Prettier eslint config and plugin:
+
+```sh
+$ yarn add --dev eslint-plugin-prettier eslint-config-prettier prettier
+```
+
+And finally, include them as follows. (**IMPORTANT:** `eslint-config-prettier` MUST be extended after `eslint-config-kata`!)
+
+```json
+{
+  "extends": ["eslint-config-kata/react", "prettier", "prettier/@typescript-eslint", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
 ```
 
