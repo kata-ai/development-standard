@@ -1,5 +1,18 @@
 # Tooling
 
+## Overview
+
+We're committed to the quality of our development stack and tooling. This document contains guides on the tools we use for daily development as a frontend engineer in Kata.ai. This also contains our unified ESLint config that you can use and extend from.
+
+## Table of Contents
+
+- [IDE](#ide)
+- [TypeScript](#typescript)
+- [Linting and Formatting](#linting-and-formatting)
+- [Tests](#tests)
+
+---
+
 ## IDE
 
 Use [Visual Studio Code](https://code.visualstudio.com). It has first-class support for JavaScript and TypeScript, complete with code-aware statement completion, Emmet integration for JSX elements, as well top-notch debugging environment.

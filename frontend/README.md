@@ -24,7 +24,7 @@ This document outlines the general styleguide for TypeScript projects within Kat
 
 ### React Styleguide
 
-[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. We chose this framework due to its ease of use, as well as extensive community support and library ecosystem. This document outlines React-specific extensions for our TypeScripy Styleguide.
+[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. We chose this framework due to its ease of use, as well as extensive community support and library ecosystem. This document outlines React-specific extensions for our TypeScript Styleguide.
 
 [Read the React Styleguide](./docs/react-guidelines.md)
 

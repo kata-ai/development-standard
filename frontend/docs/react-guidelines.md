@@ -1,22 +1,31 @@
-# Kata Platform Frontend Development Standard - React Guidelines
+# React Styleguide
 
 *Work in progress*
 
 ## Overview
 
-[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. We chose this framework due to its ease of use, as well as extensive community support and library ecosystem. This document outlines React-specific extensions for our TypeScripy Styleguide.
+[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. We chose this framework due to its ease of use, as well as extensive community support and library ecosystem. This document outlines React-specific extensions for our TypeScript Styleguide.
 
-## Styleguide
+You can use our unified ESLint + Prettier config to enforce these styleguides on your project. See [Tooling](./tooling.md) for more information.
 
-### Naming
+## Table of Contents
 
-#### Use `.jsx` and/or `.tsx` extensions for React components
+- [Naming](#naming)
+- [Class components](#class-components)
+- [Function components](#function-components)
+- [Types](#types)
+
+---
+
+## Naming
+
+### Use `.jsx` and/or `.tsx` extensions for React components
 
 Any JS/TS files with a JSX syntax should always be marked as such.
 
 > Note that using `.js` for JSX files will also give problems for Emmet autocompletion on VS Code, see [Microsoft/vscode#4962](https://github.com/Microsoft/vscode/issues/4962).
 
-#### File names should match the component name
+### File names should match the component name
 
 When writing React components, file names should match the name of the component being exported.
 
@@ -25,15 +34,15 @@ When writing React components, file names should match the name of the component
 export const CheckoutButton = () => <button>Checkout</button>;
 ```
 
-#### Use PascalCase when naming React components.
+### Use PascalCase when naming React components.
 
 This is according to the JSX specification. Use the PascalCase convention for filenames, too.
 
-#### Keep component/prop names clear and concise.
+### Keep component/prop names clear and concise.
 
 Use component names that are as clear and standard as possible. Strive for component names no longer than 2-3 words.
 
-#### Use the `onVerb` prop naming structure for event handlers
+### Use the `onVerb` prop naming structure for event handlers
 
 For internal event handlers, use the `handleVerb` naming structure.
 
@@ -43,7 +52,7 @@ For internal event handlers, use the `handleVerb` naming structure.
 </Pagination>
 ```
 
-#### Use the `isVerb` prop naming structure for represeting state
+### Use the `isVerb` prop naming structure for represeting state
 
 ```tsx
 <DataTable isLoading={this.props.isLoading}>
@@ -51,7 +60,7 @@ For internal event handlers, use the `handleVerb` naming structure.
 </DataTable>
 ```
 
-#### Use the `<ComponentName>Props` and `<ComponentName>State` naming structure for component props/state
+### Use the `<ComponentName>Props` and `<ComponentName>State` naming structure for component props/state
 
 ```tsx
 // Bad example
@@ -61,19 +70,19 @@ interface Props {}
 interface CheckoutButtonProps {}
 ```
 
-### Class components
+## Class components
 
-#### Use `public` for all default React lifecycles
+### Use `public` for all default React lifecycles
 
 All React component lifecycles (including `static` lifecycles like `getDerivedStateFromProps`) **should** be set to `public`.
 
-#### Use `private` when defining internal class properties
+### Use `private` when defining internal class properties
 
 Class properties that are only used privately should be marked as such.
 
-### Function components
+## Function components
 
-#### Use `React.FC<Props>` type over `React.SFC<Props>` type for function components
+### Use `React.FC<Props>` type over `React.SFC<Props>` type for function components
 
 The `React.SFC` type is deprecated as of `@types/react@16.7.0`, since with the upcoming [Hooks](https://reactjs.org/docs/hooks-intro.html), function components can also have state, so calling them "stateless" is a misnomer.
 
@@ -87,9 +96,9 @@ const App: React.SFC = ({ children }) => <div>{children}</div>;
 const App: React.FC = ({ children }) => <div>{children}</div>;
 ```
 
-### Types
+## Types
 
-#### Don't inline prop types
+### Don't inline prop types
 
 You should always declare the props of a component separately.
 

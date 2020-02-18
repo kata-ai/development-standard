@@ -4,6 +4,8 @@
 
 This is a living document outlining the styleguide for TypeScript codes within Kata.ai. Our styleguide is mostly derived from the [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript), with changes made to accomodate TypeScript projects.
 
+You can use our unified ESLint + Prettier config to enforce these styleguides on your project. See [Tooling](./tooling.md) for more information.
+
 ## Table of Contents
 
 - [Naming](#naming)
