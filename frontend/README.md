@@ -16,7 +16,7 @@ Generally, for our single-page apps we use [React](https://reactjs.org) with too
 
 Always keep your Node.js environment up to date. Strive for keeping your Node.js version in the latest LTS version. **Don't** use versions outside of the LTS release cycle.
 
-> To check the current release cycle of Node.js, check out [nodejs/Release](https://github.com/nodejs/Releasehttps://github.com/nodejs/Release).
+> To check the current release cycle of Node.js, check out [nodejs/Release](https://github.com/nodejs/Release).
 
 ### Yarn
 
