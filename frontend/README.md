@@ -18,13 +18,13 @@ At Kata.ai, we use [TypeScript](https://www.typescriptlang.org/) across our enti
 
 In general, using static typing in your JavaScript code [can help prevent about 15%](https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/) of the bugs that end up in committed code. Not only static typing, TypeScript also provides various productivity enhancements like advanced statement completion, as well as smart code refactoring.
 
-This document outlines the general styleguide for TypeScript projects within Kata.ai
+This document outlines the general styleguide for TypeScript projects within Kata.ai. Our styleguide is mostly derived from the [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript), with changes made to accomodate TypeScript projects.
 
 [Read the TypeScript Styleguide](./docs/typescript-guidelines.md)
 
 ### React Styleguide
 
-[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. This document outlines React-specific styleguide.
+[React](https://reactjs.org/) is the framework we choose for building frontend projects at Kata.ai. We chose this framework due to its ease of use, as well as extensive community support and library ecosystem. This document outlines React-specific extensions for our TypeScripy Styleguide.
 
 [Read the React Styleguide](./docs/react-guidelines.md)
 
