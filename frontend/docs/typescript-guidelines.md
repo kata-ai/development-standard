@@ -1,12 +1,8 @@
-# TypeScript Guidelines
+# TypeScript Styleguide
 
 ## Overview
 
-This is a living document outlining guidelines for developing frontend projects using TypeScript within Kata.ai. At Kata.ai, we use [TypeScript](https://www.typescriptlang.org/) across our entire JavaScript stack. TypeScript combines the familiarity of JavaScript with the power of static typing.
-
-In general, using static typing in your JavaScript code [can help prevent about 15%](https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/) of the bugs that end up in committed code. Not only static typing, TypeScript also provides various productivity enhancements like advanced statement completion, as well as smart code refactoring.
-
-Our styleguide is mostly derived from the [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript), with changes made to accomodate TypeScript projects.
+This is a living document outlining the styleguide for TypeScript codes within Kata.ai. Our styleguide is mostly derived from the [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript), with changes made to accomodate TypeScript projects.
 
 ## Table of Contents
 
