@@ -28,4 +28,4 @@ This is a living document outlining the React-specific guidelines in the Kata Pl
 
 This is a living document outlining the tools we use for development and testing, as well as guides on using them
 
-[Read the Tooling](./docs/tooling.md)
+[Read the Tooling docs](./docs/tooling.md)
