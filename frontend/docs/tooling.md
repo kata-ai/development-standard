@@ -78,11 +78,16 @@ To use this ESLint config in conjunction with Prettier, copy the following `.pre
 
 ```json
 {
-  "semi": false,
-  "tabWidth": 2,
   "printWidth": 120,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
   "singleQuote": true,
-  "trailingComma": "es5"
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "endOfLine": "auto"
 }
 ```
 
