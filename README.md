@@ -10,7 +10,9 @@
 
 This is a living document outlining the general development guidelines within the Kata Platform. You can read about the styleguide we follow and the tools we use below.
 
-## Links
+## Contents
 
+- [General Guidelines](./General/README.md)
 - [Frontend Guidelines](./frontend/README.md)
+- [Development Workflow](./development-workflow/README.md)
 - [Backend Guidelines](./backend/README.md)
