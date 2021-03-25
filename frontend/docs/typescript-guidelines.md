@@ -22,12 +22,20 @@ You can use our unified ESLint + Prettier config to enforce these styleguides on
 
 ## Naming
 
-### Keep filenames clear and concise
+### Pick one naming convention and stick to it
+
+Any form of naming conventions (`camelCase`, `PascalCase`, or `snake_case`) are allowed, as long as you pick one and stick with it throughout the project.
+
+> An exception to this rule would be when there are instances where it is **required** to use a certain naming convention, e.g. `PascalCase` for React components.
+
+### Keep all names clear and concise
 
 Use filenames that are as clear and standard as possible. Strive for names no longer than 2-3 words, with unabbreviated phrases.
 
 - **Good example:** `findPathOptions.ts`
 - **Bad example:** `fpOpts.ts`
+
+For naming functions, or methods inside classes, refer to the [A/HC/LC pattern](https://github.com/kettanaito/naming-cheatsheet#ahclc-pattern).
 
 ### Test files
 
@@ -216,12 +224,6 @@ Tools like Babel [don't support this syntax](https://babeljs.io/docs/en/babel-pl
 
 ## Modules
 
-### Prefer using named exports over default exports
-
-All modules should use named exports where possible. It's easier to refactor our codebase that way.
-
-The only exception to this rule is when a module is being code-split (e.g. a lazy-loaded React component).
-
 ### Prefer using a single entry point
 
 When exporting modules from multiple files within the same folder, collect those exports inside an `index.js` file in the root level of that folder.
@@ -234,13 +236,4 @@ components/
     ├── LinkButton.tsx
     ├── HollowButton.tsx
     └── IconicButton.tsx
-```
-
-```ts
-// ./components/Button/index.ts
-
-export * from './Button';
-export * from './LinkButton';
-export * from './HollowButton';
-export * from './IconicButton';
 ```
