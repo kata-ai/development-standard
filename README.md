@@ -12,7 +12,9 @@ This is a living document outlining the general development guidelines within th
 
 ## Contents
 
-- [General Guidelines](./General/README.md)
-- [Frontend Guidelines](./frontend/README.md)
-- [Development Workflow](./development-workflow/README.md)
-- [Backend Guidelines](./backend/README.md)
+| Section |  |
+|--|--|
+| [General Guidelines](./general#readme) | Guidelines that apply to all frontend projects within Kata.ai. |
+| [Frontend Guidelines](./frontend#readme) | Guidelines specific to the Kata.ai frontend team. |
+| [Backend Guidelines](./backend#readme) | Guidelines specific to the Kata.ai backend team. |
+| [Development Workflow](./development-workflow#readme) | Outlines the development workflow + standard operating procedures (SOP) for the Kata.ai engineering team. |

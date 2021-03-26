@@ -6,5 +6,8 @@ This is a living document outlining guidelines that apply for all projects withi
 
 ## Contents
 
-- [Code Review Guidelines](./code-review-guidelines.md)
-- [Production Level Code Guidelines](./production-level-code.md)
+| Section |  |
+|--|--|
+| [Languages](./languages#readme) | A list of languages we use as well as the styleguide for them. |
+| [Code Review Guidelines](./code-review-guidelines.md#readme) |  |
+| [Production Level Code Guidelines](./production-level-code.md#readme) |  |
