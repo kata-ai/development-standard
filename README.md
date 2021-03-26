@@ -2,13 +2,13 @@
 
 *Work in progress*
 
-> **Note:** This repository currently holds the Frontend Development Standard. Over time, we will update this repo and include a more generalised Development Standard that all our teams can use and extend from.
-
-> **Note:** This page is a stub. Please help expand it.
-
 ## Overview
 
 This is a living document outlining the general development guidelines within the Kata Platform. You can read about the styleguide we follow and the tools we use below.
+
+This is a public version of our Development Standard, meaning this repository is also automatically mirrored to GitHub:
+
+https://github.com/kata-ai/development-standard
 
 ## Contents
 
