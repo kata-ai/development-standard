@@ -152,7 +152,6 @@ def get_active_user():
 
 More on this in [Naming Cheatsheet](./details/naming-cheatsheet.md)
 
-
 #### Use comment to explain vague part of the code. Don’t explain each lines
 
 ```javascript
@@ -356,12 +355,12 @@ def create_random_id(self) -> str:
 		create random id
 		"""
 		id_length = 10
-    	numbers = "0123456789"
+    	chars = "0123456789abcdefghijklmnopqrstu"
     	nums = []
     	append = nums.append
 
 	    for index in range(id_length):
-	        rand_number = choice(numbers)
+	        rand_number = choice(chars)
 	        append(rand_number)
 
 	    return "".join(nums)
@@ -396,9 +395,10 @@ This leads to over-engineering. Requirements usually change and our guess someti
 
 We spend a lot of time working on a feature that doesn’t exist yet and when it is not needed in the end, we sadly remove them.
 
->So, always implement things when you actually need them, never when you just foresee that you need them. - Ron Jeffries, XP co-founder
 
-#### Small
+>Always implement things when you actually need them, never when you just foresee that you need them. - Ron Jeffries, XP co-founder
+
+#### Write Small
 
 Software development is about breaking one system into smaller features, develops them, and combines them into a system that work each other. Generally, smaller unit makes it easier for us to read and understand the algorithm used or what it actually does under the hood.
 
@@ -410,6 +410,8 @@ Several best practices:
 
 * Between 100 or 200 lines of code (from Sandy Metz and Uncle Bob)
 * Set a max line widths of your class, for example 100-120 characters.
+
+If it's bigger than that rules above, you need to break it.
 
 *Small Methods / Functions*
 

@@ -17,7 +17,10 @@ So that, ...
 
 Prerequisite to go to Ready phase:
 
-* Business requirements is clear
+* Business requirements is clear according to System Design guidelines
+* Stories should also comes from GIST process
+
+Actors: Tech Lead, Principals, PM
 
 ## Ready
 
@@ -35,6 +38,10 @@ Prerequisite to go to In Progress phase:
 * Success metrics is defined.
 * Analytics requirements are clear.
 
+Actors: Tech Lead, Software Engineers, QAs, PM, Infra
+
+Details on how story is better written, can be seen [here](./details/story.md).
+
 ## In Progress
 
 In this phase, engineers will pick the stories and start developing features.
@@ -44,6 +51,8 @@ Prerequisite to go to QA phase:
 * Contract is defined in the form of Swagger.
 * Development time should be tracked in Gitlab. Development time is not including QA time.
 * The feature is complete according to specification defined in Ready phase.
+
+Actors: Tech Lead, Software Engineers, QAs
 
 ## QA
 
@@ -58,11 +67,15 @@ Prerequisite to go to Done phase:
 * Unit test is 100 percent passed.
 * Code documentation is written. Eg. Class has description, public method has description.
 
+Actors: QAs, PM at some case to consult about bug / improvement.
+
 ## Done
 
-Prerequisite to go to next phase:
+Prerequisite to go to Deployments:
 
 * Stories passed the QA process.
 * Codes finished within the sprint, should be tagged with version according to semantic versioning.
 * Should have Technical Release notes.
 * [Javascript | Go] doc generated from code documentation.
+
+Actors: PM, Infra, Software Engineers, and SRE
