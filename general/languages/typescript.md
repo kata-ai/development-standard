@@ -39,7 +39,7 @@ Use filenames that are as clear and standard as possible. Strive for names no lo
 - **Good example:** `findPathOptions.ts`
 - **Bad example:** `fpOpts.ts`
 
-For naming functions, or methods inside classes, refer to the [A/HC/LC pattern](https://github.com/kettanaito/naming-cheatsheet#ahclc-pattern).
+For naming functions, or methods inside classes, refer to the [A/HC/LC pattern](../details/naming-cheatsheet#ahclc-pattern).
 
 ### Test files
 

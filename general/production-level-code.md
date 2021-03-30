@@ -150,7 +150,7 @@ def get_active_user():
 	return {"id": "qwewq12421", "name":"mamazo", "age": 17}
 ```
 
-More on this in [Naming Cheatsheet](./details/naming-cheatsheet.md)
+More on this in [Naming Cheatsheet](../details/naming-cheatsheet#readme)
 
 #### Use comment to explain vague part of the code. Don’t explain each lines
 

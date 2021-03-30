@@ -1,5 +1,9 @@
 # Naming cheatsheet
 
+> This naming cheatsheet is originated from "Naming cheatsheet" repository by [Artem Zakharchenko](https://github.com/kettanaito).
+>
+> Original link: https://github.com/kettanaito/naming-cheatsheet
+
 - [English language](#english-language)
 - [Naming convention](#naming-convention)
 - [S-I-D](#s-i-d)
@@ -18,8 +22,6 @@
 Naming things is hard. This sheet attempts to make it easier.
 
 Although these suggestions can be applied to any programming language, I will use JavaScript to illustrate them in practice.
-
-Source: https://github.com/kettanaito/naming-cheatsheet
 
 ## English language
 

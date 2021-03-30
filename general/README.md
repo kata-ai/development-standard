@@ -9,5 +9,6 @@ This is a living document outlining guidelines that apply for all projects withi
 | Section |  |
 |--|--|
 | [Languages](./languages#readme) | A list of languages we use as well as the styleguide for them. |
+| [Details](./details#readme) | Other small details provided as extensions to language styleguides. |
 | [Code Review Guidelines](./code-review-guidelines.md#readme) |  |
 | [Production Level Code Guidelines](./production-level-code.md#readme) |  |
