@@ -609,6 +609,9 @@ Testing business logics for your application
 * Need to run fast, independent, repeatable
 * One assert per test
 * Code coverage is between 70-75 percent
+* Public methods has to be tested because:
+	- They will be executed frequently
+	- They will probably going to be modified often
 
 #### Integration Test
 
