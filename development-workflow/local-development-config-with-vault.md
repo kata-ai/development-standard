@@ -16,6 +16,12 @@ export VAULT_TOKEN="vault-token-value-here"
 
 You can consult to your leads regarding these values.
 
+And then source the file to apply changes.
+
+```shell-session
+source ~/.zshrc
+```
+
 ## Verify vault connection
 
 Verify the server is running by running the `vault status` command. If it ran successfully, the output should look like the following:
@@ -81,8 +87,8 @@ Run this command to get environment variables format.
 ```shell-session
 kataenv platform/module
 
-# Write output to the file
-# kataenv platform/module > .env
+# Write output to the file and source the file before starting the application
+# $ kataenv platform/module > .env && source .env
 ```
 
 Output:
