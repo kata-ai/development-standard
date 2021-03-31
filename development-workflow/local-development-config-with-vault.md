@@ -1,6 +1,7 @@
 # Prerequisite
 1. [Install Vault](https://learn.hashicorp.com/tutorials/vault/getting-started-install?in=vault/getting-started#install-vault)
 2. [Install jq](https://stedolan.github.io/jq/). This is optional for converting json key value to environment variables.
+3. Connect to VPN Staging.
 
 # Configuration
 
