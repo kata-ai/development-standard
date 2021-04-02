@@ -6,6 +6,8 @@ For example, to be able to go to Ready phase, each items in Backlog should have 
 
 Another example, for each items to be deployed to Production, it should have technical release notes, passed QA, have technical notes, and code documentation.
 
+The goal of these guidelines is to make sure we **identify things early so that we don't develop premature product which causes hidden cost or unused products**.
+
 ## Backlog
 
 In this phase, stories is gathered as business requirements. Every stories should hava a clear description and standard scrum stories definition.
@@ -32,13 +34,13 @@ Prerequisite to go to In Progress phase:
 * Has been through UI or UX process.
 * Translated into specific technical requiements, from business requirements.
 * Requirement is clear, comes from System Design guidelines.
-* Acceptance criteria is complete.
+* Acceptance criteria is complete, small, and testable.
 * Use case is defined.
 * Estimation is given.
 * Success metrics is defined.
 * Analytics requirements are clear.
 
-Actors: Tech Lead, Software Engineers, QAs, PM, Infra
+Actors: Principals, Tech Lead, Software Engineers, QAs, PM, Infra
 
 Details on how story is better written, can be seen [here](./details/story.md).
 
@@ -79,3 +81,17 @@ Prerequisite to go to Deployments:
 * [Javascript | Go] doc generated from code documentation.
 
 Actors: PM, Infra, Software Engineers, and SRE
+
+## Notes
+
+- These phases are carried out using Scrum or Kanban.
+
+- Before make it to In-Progress phase, each stories should be thought carefully to identify dependencies with existing systems, pitfalls, etc, so that development phase is smooth. If after it goes to In-Progress, development team find an incompleteness, the story should be brought back to Ready phase for discussions.
+
+- Each items in could be returned to specific phase, for example in QA phase, items could be brought back to In-Progress, if during QA process a bug is found. In progress could be brought back to Ready, if it's later it has some difficulties that needs to be discussed by principals and tech leads.
+
+- If stories has been given estimation time, if it's stuck for more than one day, the team should regroup to decide whether the story is postponed or adjusting the scope of the story.
+
+- Testing can be done right away if several stories or one story has done, and its independent from other stories in another epics.
+
+- If a story in the end doesn't meet success metrics or the story's goal is not achieved as seen in analytics, product team with the help of principals and tech leads should discuss further to evaluate the results.
