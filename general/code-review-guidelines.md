@@ -197,6 +197,13 @@ function isConfigured(config: Json): bool {
 ### Always have README for each service or applications
 You can use this  [README](https://kata.quip.com/HfKJAbbcRSa5/Kataai-Repo-Documentation-Template) template.
 
+## Package
+
+Make sure all dependencies needed for running an app / servce is written inside a repository / project and committed.
+
+Otherwise the build won't run or we're late to know if the language is an interpeter one.
+
+
 ## Security
 Checks for top  [10 OWASP](https://owasp.org/www-project-top-ten/)
 
