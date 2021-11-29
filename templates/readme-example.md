@@ -1,4 +1,3 @@
-
 # Project Title
 
 A brief description of what this project does and who it's for
@@ -84,7 +83,7 @@ Unless it's open source, all project under Kata.ai should be Kata.ai's proprieta
 
 ## Authors
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@mamaz](https://twitter.com/hismamaz)
 
  
 
