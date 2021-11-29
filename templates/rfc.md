@@ -8,7 +8,7 @@
 
 ## Exceptions
 
-N/A
+(Things that are not inside of the scope of this RFC)
 
 ## Drawbacks
 
