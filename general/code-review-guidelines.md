@@ -65,7 +65,7 @@ Looks Good To Me (LGTM), but when the time comes, will produce errors or excepti
 
 
 ### The merge request should use template
-You should use  [template](https://kata.quip.com/lW7lA6I0JkLY/Pull-Request-Template) for your merge request, it makes the reviewer easier to review the code.
+You should use  [template](https://gitlab.com/kata-ai/core/development-standard/-/blob/master/templates/pull-request.md) for your merge request, it makes the reviewer easier to review the code.
 
 ### The code should use “good enough” 3rd Party Library
 
